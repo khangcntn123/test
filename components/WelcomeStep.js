@@ -37,7 +37,7 @@ export default function WelcomeStep({ userData, setUserData, onStart }) {
                         
                         <p className="text-gray-500 text-sm leading-relaxed text-justify italic border-l-2 border-indigo-100 pl-4">
                             If humans can find life in ambiguous shapes, can AI do the same? 
-                            <strong> Shape2Animal</strong> is our attempt to help AI find the within nature's random silhouettes. 
+                            <strong> Shape2Animal</strong> is our attempt to help AI find the within nature random silhouettes. 
                             Your honest feedback is the vital piece we need to complete this study.
                         </p>
                     </div>
