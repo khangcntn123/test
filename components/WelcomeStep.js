@@ -24,20 +24,20 @@ export default function WelcomeStep({ userData, setUserData, onStart }) {
                     <Feather size={48} className="text-indigo-500 mx-auto lg:mx-0" />
                     <h1 className="mt-4 text-4xl font-bold text-gray-900 leading-tight">
                         Shape2Animal: <br/>
-                        <span className="text-indigo-600">Khi AI học cách "Mơ mộng"</span>
+                        <span className="text-indigo-600">Khi AI học cách</span>
                     </h1>
                     
                     <div className="mt-6 space-y-4">
                         <p className="text-gray-700 leading-relaxed text-justify">
                             Chào bạn, cảm ơn bạn đã ghé thăm! 
                             Nghiên cứu này bắt đầu từ một câu hỏi: Nếu con người có thể thấy cả thế giới từ những hình bóng vô tri, liệu AI có làm được như thế? 
-                            <strong> Shape2Animal</strong> là nỗ lực của chúng mình để giúp máy tính tìm thấy "linh hồn" bên trong những hình khối ngẫu nhiên. 
+                            <strong> Shape2Animal</strong> là nỗ lực của chúng mình để giúp máy tính tìm thấy  bên trong những hình khối ngẫu nhiên. 
                             Những đánh giá chân thực từ bạn chính là mảnh ghép quan trọng giúp chúng mình hoàn thiện nghiên cứu này.
                         </p>
                         
                         <p className="text-gray-500 text-sm leading-relaxed text-justify italic border-l-2 border-indigo-100 pl-4">
                             If humans can find life in ambiguous shapes, can AI do the same? 
-                            <strong> Shape2Animal</strong> is our attempt to help AI find the "soul" within nature's random silhouettes. 
+                            <strong> Shape2Animal</strong> is our attempt to help AI find the within nature's random silhouettes. 
                             Your honest feedback is the vital piece we need to complete this study.
                         </p>
                     </div>

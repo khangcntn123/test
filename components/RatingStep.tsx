@@ -176,7 +176,7 @@ export default function RatingStep({
       if (e.key >= "1" && e.key <= "5") {
         const now = Date.now();
         const { lastKey, lastTime, count } = spamDetectionRef.current;
-        let newCount = (e.key === lastKey && now - lastTime < 150) ? count + 1 : 1;
+        const newCount = (e.key === lastKey && now - lastTime < 150) ? count + 1 : 1;
 
         spamDetectionRef.current = { lastKey: e.key, lastTime: now, count: newCount };
         if (newCount >= 4) {
