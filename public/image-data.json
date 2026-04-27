@@ -1,0 +1,860 @@
+[
+    {
+        "setId": "set_1",
+        "original": "/resized_results/1.jpg",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/1_gemini.jpeg"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/1_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/1_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/1_S2S.png"
+            }
+        ]
+    },
+    {
+        "setId": "set_2",
+        "original": "/resized_results/2.jpg",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/2_gemini.jpeg"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/2_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/2_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/2_S2S.png"
+            }
+        ]
+    },
+    {
+        "setId": "set_3",
+        "original": "/resized_results/3.jpg",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/3_gemini.jpeg"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/3_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/3_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/3_S2S.png"
+            }
+        ]
+    },
+    {
+        "setId": "set_4",
+        "original": "/resized_results/4.jpg",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/4_gemini.jpg"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/4_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/4_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/4_S2S.jpg"
+            }
+        ]
+    },
+    {
+        "setId": "set_5",
+        "original": "/resized_results/5.jpg",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/5_gemini.jpg"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/5_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/5_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/5_S2S.jpg"
+            }
+        ]
+    },
+    {
+        "setId": "set_7",
+        "original": "/resized_results/7.jpg",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/7_gemini.jpg"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/7_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/7_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/7_S2S.jpg"
+            }
+        ]
+    },
+    {
+        "setId": "set_8",
+        "original": "/resized_results/8.jpg",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/8_gemini.jpg"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/8_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/8_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/8_S2S.png"
+            }
+        ]
+    },
+    {
+        "setId": "set_9",
+        "original": "/resized_results/9.jpg",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/9_gemini.jpg"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/9_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/9_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/9_S2S.png"
+            }
+        ]
+    },
+    {
+        "setId": "set_10",
+        "original": "/resized_results/10.jpg",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/10_gemini.jpg"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/10_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/10_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/10_S2S.jpg"
+            }
+        ]
+    },
+    {
+        "setId": "set_11",
+        "original": "/resized_results/11.jpg",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/11_gemini.jpg"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/11_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/11_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/11_S2S.png"
+            }
+        ]
+    },
+    {
+        "setId": "set_12",
+        "original": "/resized_results/12.jpg",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/12_gemini.jpg"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/12_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/12_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/12_S2S.jpg"
+            }
+        ]
+    },
+    {
+        "setId": "set_13",
+        "original": "/resized_results/13.jpg",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/13_gemini.jpeg"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/13_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/13_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/13_S2S.png"
+            }
+        ]
+    },
+    {
+        "setId": "set_14",
+        "original": "/resized_results/14.jpg",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/14_gemini.jpg"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/14_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/14_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/14_S2S.jpg"
+            }
+        ]
+    },
+    {
+        "setId": "set_15",
+        "original": "/resized_results/15.jpg",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/15_gemini.jpg"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/15_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/15_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/15_S2S.png"
+            }
+        ]
+    },
+    {
+        "setId": "set_16",
+        "original": "/resized_results/16.jpg",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/16_gemini.jpeg"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/16_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/16_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/16_S2S.jpg"
+            }
+        ]
+    },
+    {
+        "setId": "set_17",
+        "original": "/resized_results/17.jpg",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/17_gemini.jpg"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/17_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/17_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/17_S2S.png"
+            }
+        ]
+    },
+    {
+        "setId": "set_18",
+        "original": "/resized_results/18.jpg",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/18_gemini.jpg"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/18_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/18_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/18_S2S.png"
+            }
+        ]
+    },
+    {
+        "setId": "set_19",
+        "original": "/resized_results/19.jpg",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/19_gemini.jpg"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/19_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/19_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/19_S2S.png"
+            }
+        ]
+    },
+    {
+        "setId": "set_20",
+        "original": "/resized_results/20.jpg",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/20_gemini.jpeg"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/20_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/20_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/20_S2S.png"
+            }
+        ]
+    },
+    {
+        "setId": "set_21",
+        "original": "/resized_results/21.png",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/21_gemini.jpg"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/21_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/21_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/21_S2S.png"
+            }
+        ]
+    },
+    {
+        "setId": "set_22",
+        "original": "/resized_results/22.jpg",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/22_gemini.jpeg"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/22_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/22_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/22_S2S.png"
+            }
+        ]
+    },
+    {
+        "setId": "set_23",
+        "original": "/resized_results/23.jpg",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/23_gemini.jpeg"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/23_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/23_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/23_S2S.jpg"
+            }
+        ]
+    },
+    {
+        "setId": "set_24",
+        "original": "/resized_results/24.jpg",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/24_gemini.jpg"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/24_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/24_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/24_S2S.jpg"
+            }
+        ]
+    },
+    {
+        "setId": "set_25",
+        "original": "/resized_results/25.png",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/25_gemini.png"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/25_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/25_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/25_S2S.png"
+            }
+        ]
+    },
+    {
+        "setId": "set_26",
+        "original": "/resized_results/26.png",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/26_gemini.png"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/26_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/26_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/26_S2S.png"
+            }
+        ]
+    },
+    {
+        "setId": "set_27",
+        "original": "/resized_results/27.jpg",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/27_gemini.jpeg"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/27_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/27_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/27_S2S.jpg"
+            }
+        ]
+    },
+    {
+        "setId": "set_28",
+        "original": "/resized_results/28.png",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/28_gemini.png"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/28_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/28_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/28_S2S.png"
+            }
+        ]
+    },
+    {
+        "setId": "set_29",
+        "original": "/resized_results/29.jpg",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/29_gemini.jpg"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/29_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/29_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/29_S2S.png"
+            }
+        ]
+    },
+    {
+        "setId": "set_30",
+        "original": "/resized_results/30.png",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/30_gemini.png"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/30_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/30_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/30_S2S.png"
+            }
+        ]
+    },
+    {
+        "setId": "set_31",
+        "original": "/resized_results/31.jpg",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/31_gemini.jpeg"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/31_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/31_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/31_S2S.jpg"
+            }
+        ]
+    },
+    {
+        "setId": "set_32",
+        "original": "/resized_results/32.jpg",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/32_gemini.jpg"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/32_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/32_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/32_S2S.png"
+            }
+        ]
+    },
+    {
+        "setId": "set_33",
+        "original": "/resized_results/33.jpg",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/33_gemini.jpg"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/33_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/33_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/33_S2S.png"
+            }
+        ]
+    },
+    {
+        "setId": "set_34",
+        "original": "/resized_results/34.jpg",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/34_gemini.jpg"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/34_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/34_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/34_S2S.jpg"
+            }
+        ]
+    },
+    {
+        "setId": "set_35",
+        "original": "/resized_results/35.jpg",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/35_gemini.jpg"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/35_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/35_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/35_S2S.jpg"
+            }
+        ]
+    },
+    {
+        "setId": "set_36",
+        "original": "/resized_results/36.jpg",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/36_gemini.jpeg"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/36_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/36_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/36_S2S.png"
+            }
+        ]
+    },
+    {
+        "setId": "set_37",
+        "original": "/resized_results/37.jpg",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/37_gemini.jpg"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/37_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/37_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/37_S2S.jpg"
+            }
+        ]
+    },
+    {
+        "setId": "set_38",
+        "original": "/resized_results/38.jpg",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/38_gemini.jpg"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/38_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/38_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/38_S2S.png"
+            }
+        ]
+    },
+    {
+        "setId": "set_39",
+        "original": "/resized_results/39.jpg",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/39_gemini.jpg"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/39_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/39_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/39_S2S.jpg"
+            }
+        ]
+    },
+    {
+        "setId": "set_40",
+        "original": "/resized_results/40.png",
+        "results": [
+            {
+                "pipelineId": "gemini",
+                "url": "/resized_results/40_gemini.png"
+            },
+            {
+                "pipelineId": "gpt",
+                "url": "/resized_results/40_gpt.png"
+            },
+            {
+                "pipelineId": "grok",
+                "url": "/resized_results/40_grok.jpg"
+            },
+            {
+                "pipelineId": "shape2animal",
+                "url": "/resized_results/40_S2S.png"
+            }
+        ]
+    }
+]

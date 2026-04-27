@@ -1,0 +1,442 @@
+[
+    {
+        "setId": "set_23_fire",
+        "original": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/input_rgb/fire_6.jpg",
+        "results": [
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/fire_6_Duck.png"
+            },
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/fire_6_Eagle.png"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/fire_6_Cattle_1.jpg"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/fire_6_Eagle_0.jpg"
+            }
+        ]
+    },
+    {
+        "setId": "set_24_fire",
+        "original": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/input_rgb/fire_7.jpg",
+        "results": [
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/fire_7_Goldfish.png"
+            },
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/fire_7_Whale.png"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/fire_7_Cattle_1.jpg"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/fire_7_Dolphin_0.jpg"
+            }
+        ]
+    },
+    {
+        "setId": "set_25_fire",
+        "original": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/input_rgb/fire_8.jpg",
+        "results": [
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/fire_8_Goat.png"
+            },
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/fire_8_Zebra.png"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/fire_8_Goat_0.jpg"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/fire_8_Horse_1.jpg"
+            }
+        ]
+    },
+    {
+        "setId": "set_26_stone",
+        "original": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/input_rgb/stone_10.jpg",
+        "results": [
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/stone_10_Dog.png"
+            },
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/stone_10_Harbor_seal.png"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/stone_10_animal_1.jpg"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/stone_10_Crocodile_0.jpg"
+            }
+        ]
+    },
+    {
+        "setId": "set_27_stone",
+        "original": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/input_rgb/stone_12.jpg",
+        "results": [
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/stone_12_Hamster.png"
+            },
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/stone_12_Mouse.png"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/stone_12_Hamster_1.jpg"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/stone_12_Oyster_0.jpg"
+            }
+        ]
+    },
+    {
+        "setId": "set_28_stone",
+        "original": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/input_rgb/stone_13.jpg",
+        "results": [
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/stone_13_Elephant.png"
+            },
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/stone_13_Rabbit.png"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/stone_13_Hamster_1.jpg"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/stone_13_Swan_0.jpg"
+            }
+        ]
+    },
+    {
+        "setId": "set_29_stone",
+        "original": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/input_rgb/stone_15.jpg",
+        "results": [
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/stone_15_Frog.png"
+            },
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/stone_15_Monkey.png"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/stone_15_animal_0.jpg"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/stone_15_Snake_1.jpg"
+            }
+        ]
+    },
+    {
+        "setId": "set_31_stone",
+        "original": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/input_rgb/stone_17.jpg",
+        "results": [
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/stone_17_Brown_bear.png"
+            },
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/stone_17_Oyster.png"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/stone_17_Koala_0.jpg"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/stone_17_Pig_1.jpg"
+            }
+        ]
+    },
+    {
+        "setId": "set_32_stone",
+        "original": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/input_rgb/stone_18.jpg",
+        "results": [
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/stone_18_Hamster.png"
+            },
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/stone_18_Oyster.png"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/stone_18_Hamster_0.jpg"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/stone_18_Pig_1.jpg"
+            }
+        ]
+    },
+    {
+        "setId": "set_33_stone",
+        "original": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/input_rgb/stone_19.jpg",
+        "results": [
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/stone_19_Mouse.png"
+            },
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/stone_19_Owl.png"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/stone_19_Hedgehog_1.jpg"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/stone_19_Mouse_0.jpg"
+            }
+        ]
+    },
+    {
+        "setId": "set_34_stone",
+        "original": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/input_rgb/stone_20.jpg",
+        "results": [
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/stone_20_Harbor_seal.png"
+            },
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/stone_20_Parrot.png"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/stone_20_Oyster_0.jpg"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/stone_20_Oyster_1.jpg"
+            }
+        ]
+    },
+    {
+        "setId": "set_35_stone",
+        "original": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/input_rgb/stone_21.jpg",
+        "results": [
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/stone_21_Koala.png"
+            },
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/stone_21_Owl.png"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/stone_21_animal_1.jpg"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/stone_21_Duck_0.jpg"
+            }
+        ]
+    },
+    {
+        "setId": "set_36_stone",
+        "original": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/input_rgb/stone_22.jpg",
+        "results": [
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/stone_22_Eagle.png"
+            },
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/stone_22_Oyster.png"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/stone_22_animal_1.jpg"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/stone_22_Lion_0.jpg"
+            }
+        ]
+    },
+    {
+        "setId": "set_37_stone",
+        "original": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/input_rgb/stone_23.jpg",
+        "results": [
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/stone_23_Oyster.png"
+            },
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/stone_23_Parrot.png"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/stone_23_Cat_1.jpg"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/stone_23_Hamster_0.jpg"
+            }
+        ]
+    },
+    {
+        "setId": "set_38_stone",
+        "original": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/input_rgb/stone_24.jpg",
+        "results": [
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/stone_24_Monkey.png"
+            },
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/stone_24_Oyster.png"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/stone_24_Monkey_0.jpg"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/stone_24_Sheep_1.jpg"
+            }
+        ]
+    },
+    {
+        "setId": "set_39_stone",
+        "original": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/input_rgb/stone_25.jpg",
+        "results": [
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/stone_25_Chicken.png"
+            },
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/stone_25_Monkey.png"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/stone_25_Mouse_0.jpg"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/stone_25_Tortoise_1.jpg"
+            }
+        ]
+    },
+    {
+        "setId": "set_40_stone",
+        "original": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/input_rgb/stone_3.jpg",
+        "results": [
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/stone_3_Frog.png"
+            },
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/stone_3_Oyster.png"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/stone_3_Dog_0.jpg"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/stone_3_Oyster_1.jpg"
+            }
+        ]
+    },
+    {
+        "setId": "set_41_stone",
+        "original": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/input_rgb/stone_4.jpg",
+        "results": [
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/stone_4_Brown_bear.png"
+            },
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/stone_4_Swan.png"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/stone_4_Pig_1.jpg"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/stone_4_Swan_0.jpg"
+            }
+        ]
+    },
+    {
+        "setId": "set_42_stone",
+        "original": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/input_rgb/stone_7.jpg",
+        "results": [
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/stone_7_Duck.png"
+            },
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/stone_7_Parrot.png"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/stone_7_Parrot_1.jpg"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/stone_7_Raven_0.jpg"
+            }
+        ]
+    },
+    {
+        "setId": "set_43_stone",
+        "original": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/input_rgb/stone_9.jpg",
+        "results": [
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/stone_9_Koala.png"
+            },
+            {
+                "pipelineId": "pipeline_C",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_3/stone_9_Turkey.png"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/stone_9_Hamster_1.jpg"
+            },
+            {
+                "pipelineId": "pipeline_B",
+                "url": "https://ngxf08dchtenkerp.public.blob.vercel-storage.com/result_pipeline_2/stone_9_Snake_0.jpg"
+            }
+        ]
+    }
+]
