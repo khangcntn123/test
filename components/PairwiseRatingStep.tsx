@@ -58,6 +58,7 @@ export default function PairwiseRatingStep({
     structuralCoherence: "",
     styleFidelity: "",
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
 
   useEffect(() => {
     setChoices({
@@ -80,8 +81,11 @@ export default function PairwiseRatingStep({
   };
 
   const handleSubmit = useCallback(async () => {
-    if (!isComplete) return;
+  if (!isComplete || isSubmitting) return;
 
+  setIsSubmitting(true);
+
+  try {
     await onSubmit({
       imageSetId,
       roundIndex: currentRound,
@@ -99,16 +103,23 @@ export default function PairwiseRatingStep({
     });
 
     onNext();
-  }, [
-    isComplete,
-    onSubmit,
-    imageSetId,
-    currentRound,
-    currentRoundData,
-    choices,
-    formType,
-    onNext,
-  ]);
+  } catch (error) {
+    console.error("Submit failed:", error);
+    alert("Gửi kết quả thất bại. Vui lòng thử lại.");
+  } finally {
+    setIsSubmitting(false);
+  }
+}, [
+  isComplete,
+  isSubmitting,
+  onSubmit,
+  imageSetId,
+  currentRound,
+  currentRoundData,
+  choices,
+  formType,
+  onNext,
+]);
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -117,9 +128,9 @@ export default function PairwiseRatingStep({
       );
 
       if (!activeCriterion) {
-        if (e.key === "Enter") {
-          handleSubmit();
-        }
+        if (e.key === "Enter" && !isSubmitting) {
+            handleSubmit();
+        }           
         return;
       }
 
@@ -136,7 +147,7 @@ export default function PairwiseRatingStep({
 
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [choices, handleSubmit]);
+  }, [choices, handleSubmit, isSubmitting]);
 
   return (
     <div className="max-w-screen-xl mx-auto p-4 md:p-8">
@@ -224,10 +235,10 @@ export default function PairwiseRatingStep({
 
         <button
           onClick={handleSubmit}
-          disabled={!isComplete}
+          disabled={!isComplete || isSubmitting}
           className="bg-green-500 text-white font-bold py-3 px-8 rounded-lg shadow-lg transition-all duration-300 disabled:bg-gray-300 disabled:cursor-not-allowed hover:enabled:bg-green-600 hover:enabled:scale-105"
         >
-          Submit & Next
+          {isSubmitting ? "Submitting..." : "Submit & Next"}
         </button>
       </div>
     </div>
