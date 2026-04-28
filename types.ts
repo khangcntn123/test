@@ -48,3 +48,36 @@ export interface ProcessedImageSet {
     original: string;
     rounds: EvaluationRound[];
 }
+
+export type PairwiseChoice = "A" | "B" | "tie";
+
+export type PairwiseCriterionKey =
+  | "sketchDomainPreservation"
+  | "structuralCoherence"
+  | "styleFidelity";
+
+export interface PairwiseRound {
+  imageA: ResultImage;
+  imageB: ResultImage;
+}
+
+export interface PairwiseImageSet {
+  setId: string;
+  original: string;
+  rounds: PairwiseRound[];
+}
+
+export interface PairwiseChoices {
+  sketchDomainPreservation: PairwiseChoice;
+  structuralCoherence: PairwiseChoice;
+  styleFidelity: PairwiseChoice;
+}
+
+export interface PairwiseFormData {
+  imageSetId: string;
+  roundIndex: number;
+  imageA: ResultImage;
+  imageB: ResultImage;
+  choices: PairwiseChoices;
+  formType?: string;
+}

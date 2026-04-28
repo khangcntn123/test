@@ -8,6 +8,7 @@ import InstructionsModal from "../components/InstructionsModal";
 import CriteriaModal from "../components/CriteriaModal";
 import RatingStep from "../components/RatingStep";
 import ThankYouStep from "../components/ThankYouStep";
+import PairwiseRatingStep from "../components/PairwiseRatingStep";
 
 import {
   UserData,
@@ -16,6 +17,9 @@ import {
   EvaluationRound,
   RatingFormData,
   ResultImage,
+  PairwiseImageSet,
+  PairwiseRound,
+  PairwiseFormData,
 } from "../types";
 
 const shuffleArray = <T,>(array: T[]): T[] => {
@@ -33,9 +37,37 @@ const shuffleArray = <T,>(array: T[]): T[] => {
   return newArray;
 };
 
+const createMainVsCompetitorRound = (
+  results: ResultImage[],
+  competitorType: string
+): PairwiseRound | null => {
+  const mainImage = results.find((img) => img.pipelineId === "shape2animal");
+
+  const competitors = results
+    .filter((img) => img.pipelineId !== "shape2animal")
+    .sort((a, b) => a.pipelineId.localeCompare(b.pipelineId));
+
+  const competitorIndex = Number(competitorType) - 1;
+  const competitorImage = competitors[competitorIndex];
+
+  if (!mainImage || !competitorImage) {
+    return null;
+  }
+
+  const [imageA, imageB] = shuffleArray([mainImage, competitorImage]);
+
+  return {
+    imageA,
+    imageB,
+  };
+};
+
 export default function HomePage() {
   const searchParams = useSearchParams();
-  const type = searchParams.get("type") || "1";
+  // const type = searchParams.get("type") || "1";
+  const competitorType = searchParams.get("type") || "1";
+  const batch = searchParams.get("batch") || "all";
+
   const jsonFile = "/image-data.json";
 
   const [step, setStep] = useState<
@@ -51,21 +83,23 @@ export default function HomePage() {
     majorOther: "",
     pareidoliaExperience: "",
   });
-  const [processedSets, setProcessedSets] = useState<ProcessedImageSet[]>([]);
+  // const [processedSets, setProcessedSets] = useState<ProcessedImageSet[]>([]);
+  const [processedSets, setProcessedSets] = useState<PairwiseImageSet[]>([]);
   const [currentSetIndex, setCurrentSetIndex] = useState(0);
   const [currentRoundIndex, setCurrentRoundIndex] = useState(0);
-
+ 
   // Khôi phục tiến trình
   useEffect(() => {
     const savedProgress = localStorage.getItem("survey-progress");
     if (savedProgress) {
       try {
-        const { setIndex, roundIndex, savedUserData, savedType } =
+        const { setIndex,roundIndex,savedUserData,savedCompetitorType,savedBatch,} =
           JSON.parse(savedProgress);
         if (
           typeof setIndex === "number" &&
           savedUserData?.firstName &&
-          savedType === type
+          savedCompetitorType === competitorType &&
+          savedBatch === batch
         ) {
           setUserData(savedUserData);
           setCurrentSetIndex(setIndex);
@@ -76,7 +110,7 @@ export default function HomePage() {
         localStorage.removeItem("survey-progress");
       }
     }
-  }, [type]);
+  }, [competitorType, batch]);
 
   // Lưu tiến trình
   useEffect(() => {
@@ -85,11 +119,12 @@ export default function HomePage() {
         setIndex: currentSetIndex,
         roundIndex: currentRoundIndex,
         savedUserData: userData,
-        savedType: type,
+        savedType:  competitorType,
+        savedBatch: batch,
       };
       localStorage.setItem("survey-progress", JSON.stringify(progress));
     }
-  }, [step, currentSetIndex, currentRoundIndex, userData, type]);
+  }, [step, currentSetIndex, currentRoundIndex, userData,  competitorType, batch]);
 
   // Tải và cắt dữ liệu
   useEffect(() => {
@@ -102,47 +137,33 @@ export default function HomePage() {
           return numA - numB;
         });
 
-        let slicedData = [];
-        if (type === "1") slicedData = sortedData.slice(0, 10);
-        else if (type === "2") slicedData = sortedData.slice(10, 20);
-        else if (type === "3") slicedData = sortedData.slice(20, 30);
-        else if (type === "4") slicedData = sortedData.slice(30, 40);
-        else slicedData = sortedData.slice(0, 10);
+        let slicedData: RawImageSet[] = sortedData;
 
-        const finalProcessedSets = slicedData.map((rawSet) => {
-          const groupedByPipeline: { [key: string]: ResultImage[] } =
-            rawSet.results.reduce(
-              (acc, result) => {
-                (acc[result.pipelineId] = acc[result.pipelineId] || []).push(
-                  result,
-                );
-                return acc;
-              },
-              {} as { [key: string]: ResultImage[] },
+        if (batch === "1") slicedData = sortedData.slice(0, 10);
+        else if (batch === "2") slicedData = sortedData.slice(10, 20);
+        else if (batch === "3") slicedData = sortedData.slice(20, 30);
+        else if (batch === "4") slicedData = sortedData.slice(30, 40);
+
+        const finalProcessedSets = slicedData
+          .map((rawSet) => {
+            const round = createMainVsCompetitorRound(
+              rawSet.results,
+              competitorType
             );
 
-          const numRounds = Math.max(
-            0,
-            ...Object.values(groupedByPipeline).map((p) => p.length),
-          );
-          const rounds: EvaluationRound[] = [];
+            if (!round) return null;
 
-          for (let i = 0; i < numRounds; i++) {
-            const roundResults: ResultImage[] = [];
-            for (const pipelineImages of Object.values(groupedByPipeline)) {
-              if (pipelineImages[i]) roundResults.push(pipelineImages[i]);
-            }
-            rounds.push({ results: shuffleArray(roundResults) });
-          }
-          return {
-            setId: rawSet.setId,
-            original: rawSet.original,
-            rounds: rounds,
-          };
-        });
+            return {
+              setId: rawSet.setId,
+              original: rawSet.original,
+              rounds: [round],
+            };
+          })
+          .filter((set): set is PairwiseImageSet => set !== null);
+
         setProcessedSets(finalProcessedSets);
       });
-  }, [jsonFile, type]);
+  }, [jsonFile, competitorType, batch]);
 
   useEffect(() => {
     if (step !== "rating" || processedSets.length === 0) return;
@@ -158,10 +179,12 @@ export default function HomePage() {
     if (nextSetIndex < processedSets.length) {
       const nextSetData = processedSets[nextSetIndex];
       const nextRoundData = nextSetData.rounds[nextRoundIndex];
-      nextRoundData.results.forEach((image) => {
-        const img = new Image();
-        img.src = image.url;
-      });
+
+      const imageA = new Image();
+      imageA.src = nextRoundData.imageA.url;  
+
+      const imageB = new Image();
+      imageB.src = nextRoundData.imageB.url;
       if (nextSetIndex > currentSetIndex) {
         const originalImg = new Image();
         originalImg.src = nextSetData.original;
@@ -204,6 +227,22 @@ export default function HomePage() {
       console.error("Failed to submit rating:", error);
     }
   };
+  const handleSubmitPairwise = async (comparisonData: PairwiseFormData) => {
+    try {
+      const response = await fetch("/api/submit-pairwise-rating", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          userData,
+          ...comparisonData,
+        }),
+      });
+
+      if (!response.ok) throw new Error("Network response was not ok");
+    } catch (error) {
+      console.error("Failed to submit pairwise rating:", error);
+    }
+};
 
   const handleNext = () => {
     const currentSet = processedSets[currentSetIndex];
@@ -249,20 +288,22 @@ export default function HomePage() {
             </div>
           );
         const currentSet = processedSets[currentSetIndex];
+        const currentRoundData = currentSet.rounds[currentRoundIndex];
+
         return (
-          <RatingStep
-            currentSet={currentSet.rounds[currentRoundIndex]}
+          <PairwiseRatingStep
+            currentRoundData={currentRoundData}
             originalImage={currentSet.original}
             imageSetId={currentSet.setId}
             currentIndex={currentSetIndex}
             totalSets={processedSets.length}
             currentRound={currentRoundIndex}
             totalRounds={currentSet.rounds.length}
-            onSubmit={handleSubmitRating}
+            onSubmit={handleSubmitPairwise}
             onNext={handleNext}
-            userData={userData}
+            formType={competitorType}
           />
-        );
+  );
       case "thank_you":
         return <ThankYouStep />;
       default:

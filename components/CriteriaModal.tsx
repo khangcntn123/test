@@ -11,33 +11,50 @@ interface CriteriaModalProps {
 }
 
 export default function CriteriaModal({ onStart }: CriteriaModalProps) {
+  // const criteriaList = [
+  //   {
+  //     icon: <Target className="text-indigo-500" size={24} />,
+  //     title: "Nhận diện sinh vật (Animal Plausibility)",
+  //     desc: "Hình ảnh tạo ra có rõ ràng là một con vật và hợp lý không?",
+  //   },
+  //   {
+  //     icon: <Maximize className="text-blue-500" size={24} />,
+  //     title: "Khớp hình dáng (Silhouette Adherence)",
+  //     desc: "Con vật có bám sát và lấp đầy khung/hình dạng gốc không?",
+  //   },
+  //   {
+  //     icon: <Layers className="text-amber-500" size={24} />,
+  //     title: "Hòa hợp bối cảnh (Contextual Fidelity)",
+  //     desc: "Ảnh sinh ra có thay đổi hình dạng vật thể gốc không?\nCon vật có hòa quyện tự nhiên với màu sắc gốc không?",
+  //   },
+  //   {
+  //     icon: <ImageIcon className="text-emerald-500" size={24} />,
+  //     title: "Chất lượng ảnh (Visual Quality)",
+  //     desc: "Ảnh có trông tự nhiên, sắc nét, và không bị lỗi dị tật do AI không?",
+  //   },
+  //   {
+  //     icon: <Sparkles className="text-purple-500" size={24} />,
+  //     title: "Mức độ sáng tạo (Creative Pareidolia)",
+  //     desc: "Bạn có cảm thấy bất ngờ với sự biến đổi này không?\nThấy thú vị chứ?",
+  //   },
+  // ];
   const criteriaList = [
-    {
-      icon: <Target className="text-indigo-500" size={24} />,
-      title: "Nhận diện sinh vật (Animal Plausibility)",
-      desc: "Hình ảnh tạo ra có rõ ràng là một con vật và hợp lý không?",
-    },
-    {
-      icon: <Maximize className="text-blue-500" size={24} />,
-      title: "Khớp hình dáng (Silhouette Adherence)",
-      desc: "Con vật có bám sát và lấp đầy khung/hình dạng gốc không?",
-    },
-    {
-      icon: <Layers className="text-amber-500" size={24} />,
-      title: "Hòa hợp bối cảnh (Contextual Fidelity)",
-      desc: "Ảnh sinh ra có thay đổi hình dạng vật thể gốc không?\nCon vật có hòa quyện tự nhiên với màu sắc gốc không?",
-    },
-    {
-      icon: <ImageIcon className="text-emerald-500" size={24} />,
-      title: "Chất lượng ảnh (Visual Quality)",
-      desc: "Ảnh có trông tự nhiên, sắc nét, và không bị lỗi dị tật do AI không?",
-    },
-    {
-      icon: <Sparkles className="text-purple-500" size={24} />,
-      title: "Mức độ sáng tạo (Creative Pareidolia)",
-      desc: "Bạn có cảm thấy bất ngờ với sự biến đổi này không?\nThấy thú vị chứ?",
-    },
-  ];
+  {
+    icon: <Target className="text-indigo-500" size={24} />,
+    title: "Giữ đúng miền sketch / Sketch domain preservation",
+    desc: "Ảnh đầu ra có giống tranh nét / line drawing hơn là ảnh chụp không?\nDoes the output look like a line drawing rather than a photograph?",
+  },
+  {
+    icon: <Layers className="text-amber-500" size={24} />,
+    title: "Mạch lạc cấu trúc / Structural coherence",
+    desc: "Vùng được mở rộng có nối tự nhiên với sketch gốc không?\nDoes the extended region connect naturally with the original sketch?",
+  },
+  {
+    icon: <Sparkles className="text-purple-500" size={24} />,
+    title: "Trung thành phong cách nét vẽ / Style fidelity",
+    desc: "Ảnh đầu ra có phản ánh đúng stroke style của ảnh tham chiếu không?\nDoes the output reflect the stroke style of the reference image?",
+  },
+];
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50 p-4 animate-fade-in">
