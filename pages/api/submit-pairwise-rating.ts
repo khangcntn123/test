@@ -45,7 +45,6 @@ export default async function handler(
       formType,
     } = data;
 
-    const userIdentifier = `${userData.lastName}_${userData.firstName}`;
 
     const userOccupation =
       userData.occupation === "Other"
@@ -57,22 +56,21 @@ export default async function handler(
         ? userData.majorOther
         : userData.major;
 
-    const pareidoliaExp = userData.pareidoliaExperience || "N/A";
+    const visualExperience = userData.visualExperience || "N/A";
     const timestamp = new Date().toISOString();
 
-    const getWinnerPipeline = (choice: "A" | "B" | "tie") => {
-      if (choice === "A") return imageA.pipelineId;
-      if (choice === "B") return imageB.pipelineId;
-      return "tie";
+    const getWinnerPipeline = (choice: "A" | "B") => {
+      return choice === "A" ? imageA.pipelineId : imageB.pipelineId;
     };
 
     const rowToAdd = [
       timestamp,
-      userIdentifier,
+
+      userData.ageRange,
       userData.gender,
       userOccupation || "",
       userMajor || "",
-      pareidoliaExp,
+      visualExperience,
 
       formType || "1",
       imageSetId,
@@ -83,14 +81,14 @@ export default async function handler(
       imageB.pipelineId,
       imageB.url,
 
-      choices.sketchDomainPreservation,
-      getWinnerPipeline(choices.sketchDomainPreservation),
+      choices.perceptualQuality,
+      getWinnerPipeline(choices.perceptualQuality),
+
+      choices.contentPreservation,
+      getWinnerPipeline(choices.contentPreservation),
 
       choices.structuralCoherence,
       getWinnerPipeline(choices.structuralCoherence),
-
-      choices.styleFidelity,
-      getWinnerPipeline(choices.styleFidelity),
     ];
 
     await sheets.spreadsheets.values.append({

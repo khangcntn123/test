@@ -41,10 +41,10 @@ const createMainVsCompetitorRound = (
   results: ResultImage[],
   competitorType: string
 ): PairwiseRound | null => {
-  const mainImage = results.find((img) => img.pipelineId === "shape2animal");
+  const mainImage = results.find((img) => img.pipelineId === "sketchbloom");
 
   const competitors = results
-    .filter((img) => img.pipelineId !== "shape2animal")
+    .filter((img) => img.pipelineId !== "sketchbloom")
     .sort((a, b) => a.pipelineId.localeCompare(b.pipelineId));
 
   const competitorIndex = Number(competitorType) - 1;
@@ -61,27 +61,46 @@ const createMainVsCompetitorRound = (
     imageB,
   };
 };
+const getValidBatchSize = (value: string | null): number => {
+  const parsedValue = Number(value);
+  return Number.isInteger(parsedValue) && parsedValue > 0 ? parsedValue : 10;
+};
 
 export default function HomePage() {
   const searchParams = useSearchParams();
   // const type = searchParams.get("type") || "1";
   const competitorType = searchParams.get("type") || "1";
   const batch = searchParams.get("batch") || "all";
+  const batchSize = getValidBatchSize(searchParams.get("batchSize"));
+  const getSlicedDataByBatch = (
+  data: RawImageSet[],
+  batch: string,
+  batchSize: number
+): RawImageSet[] => {
+  if (batch === "all") return data;
 
-  const jsonFile = "/image-data.json";
+  const batchNumber = Number(batch);
+  if (!Number.isInteger(batchNumber) || batchNumber <= 0) return data;
+
+  const startIndex = (batchNumber - 1) * batchSize;
+  const endIndex = startIndex + batchSize;
+
+  return data.slice(startIndex, endIndex);
+};
+
+  const jsonFile = "/data.json";
 
   const [step, setStep] = useState<
     "welcome" | "instructions" | "criteria" | "rating" | "thank_you"
   >("welcome");
   const [userData, setUserData] = useState<UserData>({
-    firstName: "",
-    lastName: "",
+    ageRange: "",
     gender: "",
     occupation: "",
     occupationOther: "",
     major: "",
     majorOther: "",
-    pareidoliaExperience: "",
+    visualExperience: "",
   });
   // const [processedSets, setProcessedSets] = useState<ProcessedImageSet[]>([]);
   const [processedSets, setProcessedSets] = useState<PairwiseImageSet[]>([]);
@@ -97,7 +116,8 @@ export default function HomePage() {
           JSON.parse(savedProgress);
         if (
           typeof setIndex === "number" &&
-          savedUserData?.firstName &&
+          typeof roundIndex === "number" &&
+          savedUserData?.ageRange &&
           savedCompetitorType === competitorType &&
           savedBatch === batch
         ) {
@@ -114,14 +134,15 @@ export default function HomePage() {
 
   // Lưu tiến trình
   useEffect(() => {
-    if (step === "rating" && userData.firstName) {
+   if (step === "rating" && userData.ageRange) {
       const progress = {
         setIndex: currentSetIndex,
         roundIndex: currentRoundIndex,
         savedUserData: userData,
-        savedType:  competitorType,
+        savedCompetitorType: competitorType,
         savedBatch: batch,
       };
+
       localStorage.setItem("survey-progress", JSON.stringify(progress));
     }
   }, [step, currentSetIndex, currentRoundIndex, userData,  competitorType, batch]);
@@ -137,12 +158,8 @@ export default function HomePage() {
           return numA - numB;
         });
 
-        let slicedData: RawImageSet[] = sortedData;
 
-        if (batch === "1") slicedData = sortedData.slice(0, 10);
-        else if (batch === "2") slicedData = sortedData.slice(10, 20);
-        else if (batch === "3") slicedData = sortedData.slice(20, 30);
-        else if (batch === "4") slicedData = sortedData.slice(30, 40);
+        const slicedData = getSlicedDataByBatch(sortedData, batch, batchSize);
 
         const finalProcessedSets = slicedData
           .map((rawSet) => {
@@ -193,18 +210,27 @@ export default function HomePage() {
   }, [step, currentSetIndex, currentRoundIndex, processedSets]);
 
   const handleStart = () => {
-    if (
-      userData.firstName &&
-      userData.lastName &&
-      userData.gender &&
-      userData.occupation &&
-      userData.pareidoliaExperience
-    ) {
-      setStep("instructions");
-    } else {
-      alert("Vui lòng điền đầy đủ các thông tin bắt buộc.");
-    }
-  };
+  const needsMajor =
+    userData.occupation === "Student" || userData.occupation === "Researcher";
+
+  const needsOtherOccupation = userData.occupation === "Other";
+  const needsOtherMajor = userData.major === "Other";
+
+  const isValid =
+    userData.ageRange &&
+    userData.gender &&
+    userData.occupation &&
+    userData.visualExperience &&
+    (!needsMajor || userData.major) &&
+    (!needsOtherOccupation || userData.occupationOther) &&
+    (!needsOtherMajor || userData.majorOther);
+
+  if (isValid) {
+    setStep("instructions");
+  } else {
+    alert("Vui lòng điền đầy đủ các thông tin bắt buộc. / Please complete all required fields.");
+  }
+};
 
   const handleSubmitRating = async (ratingData: RatingFormData) => {
     try {
@@ -314,7 +340,7 @@ export default function HomePage() {
   return (
     <>
       <Head>
-        <title>Nghiên cứu Pareidolia & Trí tuệ nhân tạo</title>
+        <title>Nghiên cứu so sánh sketch AI / AI Sketch Comparison Study</title>
       </Head>
       <main>{renderStep()}</main>
     </>

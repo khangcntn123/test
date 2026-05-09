@@ -50,13 +50,6 @@ export default function InstructionsModal({
             </li>
 
             <li className="flex justify-between items-center">
-              <span className="text-gray-600">Hòa / Tie:</span>
-              <span className="font-mono bg-white px-2 py-1 rounded-md shadow-sm border">
-                T
-              </span>
-            </li>
-
-            <li className="flex justify-between items-center">
               <span className="text-gray-600">Gửi / Submit:</span>
               <span className="font-mono bg-white px-2 py-1 rounded-md shadow-sm border">
                 Enter
@@ -65,9 +58,9 @@ export default function InstructionsModal({
           </ul>
 
           <p className="text-center text-xs text-gray-500 mt-4">
-            Với mỗi tiêu chí, nhấn A, B hoặc T để chọn kết quả tốt hơn.
+            Với mỗi tiêu chí, nhấn A hoặc B để chọn kết quả tốt hơn.
             <br />
-            For each criterion, press A, B, or T to choose the better result.
+            For each criterion, press A or B to choose the better result.
           </p>
         </div>
 

@@ -1,0 +1,1154 @@
+[
+  {
+    "setId": "Cat_complex_2",
+    "original": "/merged_dataset/Cat_complex_2/Cat_complex_2.png",
+    "results": [
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Cat_complex_2/Cat_complex_2_sketchbloom.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Cat_complex_2/Cat_complex_2_CLIPascene.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Cat_complex_2/Cat_complex_2_Diffsketcher.png"
+      }
+    ]
+  },
+  {
+    "setId": "Human_moderate_5",
+    "original": "/merged_dataset/Human_moderate_5/Human_moderate_5.png",
+    "results": [
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Human_moderate_5/Human_moderate_5_CLIPascene.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Human_moderate_5/Human_moderate_5_sketchbloom.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Human_moderate_5/Human_moderate_5_Diffsketcher.png"
+      }
+    ]
+  },
+  {
+    "setId": "Dog_moderate_5",
+    "original": "/merged_dataset/Dog_moderate_5/Dog_moderate_5.png",
+    "results": [
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Dog_moderate_5/Dog_moderate_5_sketchbloom.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Dog_moderate_5/Dog_moderate_5_CLIPascene.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Dog_moderate_5/Dog_moderate_5_Diffsketcher.png"
+      }
+    ]
+  },
+  {
+    "setId": "Cat_complex_3",
+    "original": "/merged_dataset/Cat_complex_3/Cat_complex_3.png",
+    "results": [
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Cat_complex_3/Cat_complex_3_CLIPascene.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Cat_complex_3/Cat_complex_3_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Cat_complex_3/Cat_complex_3_sketchbloom.png"
+      }
+    ]
+  },
+  {
+    "setId": "Human_complex_11",
+    "original": "/merged_dataset/Human_complex_11/Human_complex_11.png",
+    "results": [
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Human_complex_11/Human_complex_11_sketchbloom.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Human_complex_11/Human_complex_11_CLIPascene.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Human_complex_11/Human_complex_11_Diffsketcher.png"
+      }
+    ]
+  },
+  {
+    "setId": "Vehicles_complex_9",
+    "original": "/merged_dataset/Vehicles_complex_9/Vehicles_complex_9.png",
+    "results": [
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Vehicles_complex_9/Vehicles_complex_9_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Vehicles_complex_9/Vehicles_complex_9_CLIPascene.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Vehicles_complex_9/Vehicles_complex_9_sketchbloom.png"
+      }
+    ]
+  },
+  {
+    "setId": "Cat_complex_8",
+    "original": "/merged_dataset/Cat_complex_8/Cat_complex_8.png",
+    "results": [
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Cat_complex_8/Cat_complex_8_CLIPascene.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Cat_complex_8/Cat_complex_8_sketchbloom.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Cat_complex_8/Cat_complex_8_Diffsketcher.png"
+      }
+    ]
+  },
+  {
+    "setId": "Plant_complex_14",
+    "original": "/merged_dataset/Plant_complex_14/Plant_complex_14.png",
+    "results": [
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Plant_complex_14/Plant_complex_14_sketchbloom.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Plant_complex_14/Plant_complex_14_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Plant_complex_14/Plant_complex_14_CLIPascene.png"
+      }
+    ]
+  },
+  {
+    "setId": "Cat_moderate_4",
+    "original": "/merged_dataset/Cat_moderate_4/Cat_moderate_4.png",
+    "results": [
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Cat_moderate_4/Cat_moderate_4_CLIPascene.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Cat_moderate_4/Cat_moderate_4_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Cat_moderate_4/Cat_moderate_4_sketchbloom.png"
+      }
+    ]
+  },
+  {
+    "setId": "Vehicles_moderate_12",
+    "original": "/merged_dataset/Vehicles_moderate_12/Vehicles_moderate_12.png",
+    "results": [
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Vehicles_moderate_12/Vehicles_moderate_12_CLIPascene.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Vehicles_moderate_12/Vehicles_moderate_12_sketchbloom.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Vehicles_moderate_12/Vehicles_moderate_12_Diffsketcher.png"
+      }
+    ]
+  },
+  {
+    "setId": "Cat_complex_6",
+    "original": "/merged_dataset/Cat_complex_6/Cat_complex_6.png",
+    "results": [
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Cat_complex_6/Cat_complex_6_CLIPascene.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Cat_complex_6/Cat_complex_6_sketchbloom.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Cat_complex_6/Cat_complex_6_Diffsketcher.png"
+      }
+    ]
+  },
+  {
+    "setId": "Vehicles_complex_4",
+    "original": "/merged_dataset/Vehicles_complex_4/Vehicles_complex_4.png",
+    "results": [
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Vehicles_complex_4/Vehicles_complex_4_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Vehicles_complex_4/Vehicles_complex_4_CLIPascene.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Vehicles_complex_4/Vehicles_complex_4_sketchbloom.png"
+      }
+    ]
+  },
+  {
+    "setId": "Human_complex_12",
+    "original": "/merged_dataset/Human_complex_12/Human_complex_12.png",
+    "results": [
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Human_complex_12/Human_complex_12_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Human_complex_12/Human_complex_12_CLIPascene.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Human_complex_12/Human_complex_12_sketchbloom.png"
+      }
+    ]
+  },
+  {
+    "setId": "Vehicles_moderate_3",
+    "original": "/merged_dataset/Vehicles_moderate_3/Vehicles_moderate_3.png",
+    "results": [
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Vehicles_moderate_3/Vehicles_moderate_3_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Vehicles_moderate_3/Vehicles_moderate_3_sketchbloom.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Vehicles_moderate_3/Vehicles_moderate_3_CLIPascene.png"
+      }
+    ]
+  },
+  {
+    "setId": "Human_moderate_8",
+    "original": "/merged_dataset/Human_moderate_8/Human_moderate_8.png",
+    "results": [
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Human_moderate_8/Human_moderate_8_CLIPascene.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Human_moderate_8/Human_moderate_8_sketchbloom.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Human_moderate_8/Human_moderate_8_Diffsketcher.png"
+      }
+    ]
+  },
+  {
+    "setId": "Cat_complex_4",
+    "original": "/merged_dataset/Cat_complex_4/Cat_complex_4.png",
+    "results": [
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Cat_complex_4/Cat_complex_4_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Cat_complex_4/Cat_complex_4_CLIPascene.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Cat_complex_4/Cat_complex_4_sketchbloom.png"
+      }
+    ]
+  },
+  {
+    "setId": "Vehicles_moderate_4",
+    "original": "/merged_dataset/Vehicles_moderate_4/Vehicles_moderate_4.png",
+    "results": [
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Vehicles_moderate_4/Vehicles_moderate_4_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Vehicles_moderate_4/Vehicles_moderate_4_sketchbloom.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Vehicles_moderate_4/Vehicles_moderate_4_CLIPascene.png"
+      }
+    ]
+  },
+  {
+    "setId": "Normal_object_complex_2",
+    "original": "/merged_dataset/Normal_object_complex_2/Normal_object_complex_2.png",
+    "results": [
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Normal_object_complex_2/Normal_object_complex_2_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Normal_object_complex_2/Normal_object_complex_2_sketchbloom.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Normal_object_complex_2/Normal_object_complex_2_CLIPascene.png"
+      }
+    ]
+  },
+  {
+    "setId": "Plant_complex_12",
+    "original": "/merged_dataset/Plant_complex_12/Plant_complex_12.png",
+    "results": [
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Plant_complex_12/Plant_complex_12_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Plant_complex_12/Plant_complex_12_CLIPascene.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Plant_complex_12/Plant_complex_12_sketchbloom.png"
+      }
+    ]
+  },
+  {
+    "setId": "Normal_object_complex_1",
+    "original": "/merged_dataset/Normal_object_complex_1/Normal_object_complex_1.png",
+    "results": [
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Normal_object_complex_1/Normal_object_complex_1_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Normal_object_complex_1/Normal_object_complex_1_sketchbloom.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Normal_object_complex_1/Normal_object_complex_1_CLIPascene.png"
+      }
+    ]
+  },
+  {
+    "setId": "Vehicles_moderate_7",
+    "original": "/merged_dataset/Vehicles_moderate_7/Vehicles_moderate_7.png",
+    "results": [
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Vehicles_moderate_7/Vehicles_moderate_7_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Vehicles_moderate_7/Vehicles_moderate_7_sketchbloom.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Vehicles_moderate_7/Vehicles_moderate_7_CLIPascene.png"
+      }
+    ]
+  },
+  {
+    "setId": "Human_complex_4",
+    "original": "/merged_dataset/Human_complex_4/Human_complex_4.png",
+    "results": [
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Human_complex_4/Human_complex_4_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Human_complex_4/Human_complex_4_sketchbloom.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Human_complex_4/Human_complex_4_CLIPascene.png"
+      }
+    ]
+  },
+  {
+    "setId": "Human_moderate_7",
+    "original": "/merged_dataset/Human_moderate_7/Human_moderate_7.png",
+    "results": [
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Human_moderate_7/Human_moderate_7_sketchbloom.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Human_moderate_7/Human_moderate_7_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Human_moderate_7/Human_moderate_7_CLIPascene.png"
+      }
+    ]
+  },
+  {
+    "setId": "Dog_moderate_4",
+    "original": "/merged_dataset/Dog_moderate_4/Dog_moderate_4.png",
+    "results": [
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Dog_moderate_4/Dog_moderate_4_CLIPascene.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Dog_moderate_4/Dog_moderate_4_sketchbloom.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Dog_moderate_4/Dog_moderate_4_Diffsketcher.png"
+      }
+    ]
+  },
+  {
+    "setId": "Normal_object_complex_5",
+    "original": "/merged_dataset/Normal_object_complex_5/Normal_object_complex_5.png",
+    "results": [
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Normal_object_complex_5/Normal_object_complex_5_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Normal_object_complex_5/Normal_object_complex_5_sketchbloom.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Normal_object_complex_5/Normal_object_complex_5_CLIPascene.png"
+      }
+    ]
+  },
+  {
+    "setId": "Vehicles_complex_3",
+    "original": "/merged_dataset/Vehicles_complex_3/Vehicles_complex_3.png",
+    "results": [
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Vehicles_complex_3/Vehicles_complex_3_sketchbloom.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Vehicles_complex_3/Vehicles_complex_3_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Vehicles_complex_3/Vehicles_complex_3_CLIPascene.png"
+      }
+    ]
+  },
+  {
+    "setId": "Cat_complex_1",
+    "original": "/merged_dataset/Cat_complex_1/Cat_complex_1.png",
+    "results": [
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Cat_complex_1/Cat_complex_1_sketchbloom.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Cat_complex_1/Cat_complex_1_CLIPascene.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Cat_complex_1/Cat_complex_1_Diffsketcher.png"
+      }
+    ]
+  },
+  {
+    "setId": "Vehicles_complex_12",
+    "original": "/merged_dataset/Vehicles_complex_12/Vehicles_complex_12.png",
+    "results": [
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Vehicles_complex_12/Vehicles_complex_12_sketchbloom.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Vehicles_complex_12/Vehicles_complex_12_CLIPascene.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Vehicles_complex_12/Vehicles_complex_12_Diffsketcher.png"
+      }
+    ]
+  },
+  {
+    "setId": "Normal_object_moderate_3",
+    "original": "/merged_dataset/Normal_object_moderate_3/Normal_object_moderate_3.png",
+    "results": [
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Normal_object_moderate_3/Normal_object_moderate_3_CLIPascene.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Normal_object_moderate_3/Normal_object_moderate_3_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Normal_object_moderate_3/Normal_object_moderate_3_sketchbloom.png"
+      }
+    ]
+  },
+  {
+    "setId": "Human_complex_5",
+    "original": "/merged_dataset/Human_complex_5/Human_complex_5.png",
+    "results": [
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Human_complex_5/Human_complex_5_CLIPascene.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Human_complex_5/Human_complex_5_sketchbloom.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Human_complex_5/Human_complex_5_Diffsketcher.png"
+      }
+    ]
+  },
+  {
+    "setId": "Cat_complex_5",
+    "original": "/merged_dataset/Cat_complex_5/Cat_complex_5.png",
+    "results": [
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Cat_complex_5/Cat_complex_5_CLIPascene.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Cat_complex_5/Cat_complex_5_sketchbloom.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Cat_complex_5/Cat_complex_5_Diffsketcher.png"
+      }
+    ]
+  },
+  {
+    "setId": "Dog_complex_2",
+    "original": "/merged_dataset/Dog_complex_2/Dog_complex_2.png",
+    "results": [
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Dog_complex_2/Dog_complex_2_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Dog_complex_2/Dog_complex_2_sketchbloom.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Dog_complex_2/Dog_complex_2_CLIPascene.png"
+      }
+    ]
+  },
+  {
+    "setId": "Human_complex_1",
+    "original": "/merged_dataset/Human_complex_1/Human_complex_1.png",
+    "results": [
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Human_complex_1/Human_complex_1_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Human_complex_1/Human_complex_1_CLIPascene.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Human_complex_1/Human_complex_1_sketchbloom.png"
+      }
+    ]
+  },
+  {
+    "setId": "Normal_object_complex_9",
+    "original": "/merged_dataset/Normal_object_complex_9/Normal_object_complex_9.png",
+    "results": [
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Normal_object_complex_9/Normal_object_complex_9_sketchbloom.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Normal_object_complex_9/Normal_object_complex_9_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Normal_object_complex_9/Normal_object_complex_9_CLIPascene.png"
+      }
+    ]
+  },
+  {
+    "setId": "Dog_complex_4",
+    "original": "/merged_dataset/Dog_complex_4/Dog_complex_4.png",
+    "results": [
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Dog_complex_4/Dog_complex_4_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Dog_complex_4/Dog_complex_4_CLIPascene.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Dog_complex_4/Dog_complex_4_sketchbloom.png"
+      }
+    ]
+  },
+  {
+    "setId": "Normal_object_moderate_11",
+    "original": "/merged_dataset/Normal_object_moderate_11/Normal_object_moderate_11.png",
+    "results": [
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Normal_object_moderate_11/Normal_object_moderate_11_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Normal_object_moderate_11/Normal_object_moderate_11_sketchbloom.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Normal_object_moderate_11/Normal_object_moderate_11_CLIPascene.png"
+      }
+    ]
+  },
+  {
+    "setId": "Dog_complex_3",
+    "original": "/merged_dataset/Dog_complex_3/Dog_complex_3.png",
+    "results": [
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Dog_complex_3/Dog_complex_3_sketchbloom.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Dog_complex_3/Dog_complex_3_CLIPascene.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Dog_complex_3/Dog_complex_3_Diffsketcher.png"
+      }
+    ]
+  },
+  {
+    "setId": "Vehicles_complex_5",
+    "original": "/merged_dataset/Vehicles_complex_5/Vehicles_complex_5.png",
+    "results": [
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Vehicles_complex_5/Vehicles_complex_5_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Vehicles_complex_5/Vehicles_complex_5_CLIPascene.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Vehicles_complex_5/Vehicles_complex_5_sketchbloom.png"
+      }
+    ]
+  },
+  {
+    "setId": "Vehicles_complex_1",
+    "original": "/merged_dataset/Vehicles_complex_1/Vehicles_complex_1.png",
+    "results": [
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Vehicles_complex_1/Vehicles_complex_1_sketchbloom.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Vehicles_complex_1/Vehicles_complex_1_CLIPascene.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Vehicles_complex_1/Vehicles_complex_1_Diffsketcher.png"
+      }
+    ]
+  },
+  {
+    "setId": "Human_complex_6",
+    "original": "/merged_dataset/Human_complex_6/Human_complex_6.png",
+    "results": [
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Human_complex_6/Human_complex_6_sketchbloom.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Human_complex_6/Human_complex_6_CLIPascene.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Human_complex_6/Human_complex_6_Diffsketcher.png"
+      }
+    ]
+  },
+  {
+    "setId": "Plant_complex_5",
+    "original": "/merged_dataset/Plant_complex_5/Plant_complex_5.png",
+    "results": [
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Plant_complex_5/Plant_complex_5_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Plant_complex_5/Plant_complex_5_sketchbloom.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Plant_complex_5/Plant_complex_5_CLIPascene.png"
+      }
+    ]
+  },
+  {
+    "setId": "Dog_complex_5",
+    "original": "/merged_dataset/Dog_complex_5/Dog_complex_5.png",
+    "results": [
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Dog_complex_5/Dog_complex_5_CLIPascene.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Dog_complex_5/Dog_complex_5_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Dog_complex_5/Dog_complex_5_sketchbloom.png"
+      }
+    ]
+  },
+  {
+    "setId": "Human_moderate_1",
+    "original": "/merged_dataset/Human_moderate_1/Human_moderate_1.png",
+    "results": [
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Human_moderate_1/Human_moderate_1_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Human_moderate_1/Human_moderate_1_CLIPascene.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Human_moderate_1/Human_moderate_1_sketchbloom.png"
+      }
+    ]
+  },
+  {
+    "setId": "Normal_object_complex_6",
+    "original": "/merged_dataset/Normal_object_complex_6/Normal_object_complex_6.png",
+    "results": [
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Normal_object_complex_6/Normal_object_complex_6_CLIPascene.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Normal_object_complex_6/Normal_object_complex_6_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Normal_object_complex_6/Normal_object_complex_6_sketchbloom.png"
+      }
+    ]
+  },
+  {
+    "setId": "Vehicles_moderate_1",
+    "original": "/merged_dataset/Vehicles_moderate_1/Vehicles_moderate_1.png",
+    "results": [
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Vehicles_moderate_1/Vehicles_moderate_1_CLIPascene.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Vehicles_moderate_1/Vehicles_moderate_1_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Vehicles_moderate_1/Vehicles_moderate_1_sketchbloom.png"
+      }
+    ]
+  },
+  {
+    "setId": "Cat_complex_7",
+    "original": "/merged_dataset/Cat_complex_7/Cat_complex_7.png",
+    "results": [
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Cat_complex_7/Cat_complex_7_CLIPascene.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Cat_complex_7/Cat_complex_7_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Cat_complex_7/Cat_complex_7_sketchbloom.png"
+      }
+    ]
+  },
+  {
+    "setId": "Plant_complex_3",
+    "original": "/merged_dataset/Plant_complex_3/Plant_complex_3.png",
+    "results": [
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Plant_complex_3/Plant_complex_3_CLIPascene.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Plant_complex_3/Plant_complex_3_sketchbloom.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Plant_complex_3/Plant_complex_3_Diffsketcher.png"
+      }
+    ]
+  },
+  {
+    "setId": "Plant_complex_6",
+    "original": "/merged_dataset/Plant_complex_6/Plant_complex_6.png",
+    "results": [
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Plant_complex_6/Plant_complex_6_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Plant_complex_6/Plant_complex_6_sketchbloom.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Plant_complex_6/Plant_complex_6_CLIPascene.png"
+      }
+    ]
+  },
+  {
+    "setId": "Dog_moderate_2",
+    "original": "/merged_dataset/Dog_moderate_2/Dog_moderate_2.png",
+    "results": [
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Dog_moderate_2/Dog_moderate_2_CLIPascene.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Dog_moderate_2/Dog_moderate_2_sketchbloom.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Dog_moderate_2/Dog_moderate_2_Diffsketcher.png"
+      }
+    ]
+  },
+  {
+    "setId": "Human_complex_7",
+    "original": "/merged_dataset/Human_complex_7/Human_complex_7.png",
+    "results": [
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Human_complex_7/Human_complex_7_sketchbloom.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Human_complex_7/Human_complex_7_CLIPascene.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Human_complex_7/Human_complex_7_Diffsketcher.png"
+      }
+    ]
+  },
+  {
+    "setId": "Normal_object_complex_8",
+    "original": "/merged_dataset/Normal_object_complex_8/Normal_object_complex_8.png",
+    "results": [
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Normal_object_complex_8/Normal_object_complex_8_sketchbloom.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Normal_object_complex_8/Normal_object_complex_8_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Normal_object_complex_8/Normal_object_complex_8_CLIPascene.png"
+      }
+    ]
+  },
+  {
+    "setId": "Normal_object_moderate_7",
+    "original": "/merged_dataset/Normal_object_moderate_7/Normal_object_moderate_7.png",
+    "results": [
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Normal_object_moderate_7/Normal_object_moderate_7_CLIPascene.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Normal_object_moderate_7/Normal_object_moderate_7_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Normal_object_moderate_7/Normal_object_moderate_7_sketchbloom.png"
+      }
+    ]
+  },
+  {
+    "setId": "Plant_complex_1",
+    "original": "/merged_dataset/Plant_complex_1/Plant_complex_1.png",
+    "results": [
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Plant_complex_1/Plant_complex_1_CLIPascene.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Plant_complex_1/Plant_complex_1_sketchbloom.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Plant_complex_1/Plant_complex_1_Diffsketcher.png"
+      }
+    ]
+  },
+  {
+    "setId": "Normal_object_moderate_2",
+    "original": "/merged_dataset/Normal_object_moderate_2/Normal_object_moderate_2.png",
+    "results": [
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Normal_object_moderate_2/Normal_object_moderate_2_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Normal_object_moderate_2/Normal_object_moderate_2_CLIPascene.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Normal_object_moderate_2/Normal_object_moderate_2_sketchbloom.png"
+      }
+    ]
+  },
+  {
+    "setId": "Cat_moderate_5",
+    "original": "/merged_dataset/Cat_moderate_5/Cat_moderate_5.png",
+    "results": [
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Cat_moderate_5/Cat_moderate_5_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Cat_moderate_5/Cat_moderate_5_sketchbloom.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Cat_moderate_5/Cat_moderate_5_CLIPascene.png"
+      }
+    ]
+  },
+  {
+    "setId": "Normal_object_moderate_10",
+    "original": "/merged_dataset/Normal_object_moderate_10/Normal_object_moderate_10.png",
+    "results": [
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Normal_object_moderate_10/Normal_object_moderate_10_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Normal_object_moderate_10/Normal_object_moderate_10_CLIPascene.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Normal_object_moderate_10/Normal_object_moderate_10_sketchbloom.png"
+      }
+    ]
+  },
+  {
+    "setId": "Dog_complex_6",
+    "original": "/merged_dataset/Dog_complex_6/Dog_complex_6.png",
+    "results": [
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Dog_complex_6/Dog_complex_6_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Dog_complex_6/Dog_complex_6_CLIPascene.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Dog_complex_6/Dog_complex_6_sketchbloom.png"
+      }
+    ]
+  },
+  {
+    "setId": "Vehicles_complex_8",
+    "original": "/merged_dataset/Vehicles_complex_8/Vehicles_complex_8.png",
+    "results": [
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Vehicles_complex_8/Vehicles_complex_8_CLIPascene.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Vehicles_complex_8/Vehicles_complex_8_sketchbloom.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Vehicles_complex_8/Vehicles_complex_8_Diffsketcher.png"
+      }
+    ]
+  },
+  {
+    "setId": "Vehicles_moderate_5",
+    "original": "/merged_dataset/Vehicles_moderate_5/Vehicles_moderate_5.png",
+    "results": [
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Vehicles_moderate_5/Vehicles_moderate_5_sketchbloom.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Vehicles_moderate_5/Vehicles_moderate_5_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Vehicles_moderate_5/Vehicles_moderate_5_CLIPascene.png"
+      }
+    ]
+  },
+  {
+    "setId": "Vehicles_moderate_2",
+    "original": "/merged_dataset/Vehicles_moderate_2/Vehicles_moderate_2.png",
+    "results": [
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Vehicles_moderate_2/Vehicles_moderate_2_CLIPascene.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Vehicles_moderate_2/Vehicles_moderate_2_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Vehicles_moderate_2/Vehicles_moderate_2_sketchbloom.png"
+      }
+    ]
+  },
+  {
+    "setId": "Plant_complex_2",
+    "original": "/merged_dataset/Plant_complex_2/Plant_complex_2.png",
+    "results": [
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Plant_complex_2/Plant_complex_2_sketchbloom.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Plant_complex_2/Plant_complex_2_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Plant_complex_2/Plant_complex_2_CLIPascene.png"
+      }
+    ]
+  },
+  {
+    "setId": "Normal_object_complex_11",
+    "original": "/merged_dataset/Normal_object_complex_11/Normal_object_complex_11.png",
+    "results": [
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Normal_object_complex_11/Normal_object_complex_11_sketchbloom.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Normal_object_complex_11/Normal_object_complex_11_CLIPascene.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Normal_object_complex_11/Normal_object_complex_11_Diffsketcher.png"
+      }
+    ]
+  },
+  {
+    "setId": "Vehicles_complex_2",
+    "original": "/merged_dataset/Vehicles_complex_2/Vehicles_complex_2.png",
+    "results": [
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Vehicles_complex_2/Vehicles_complex_2_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Vehicles_complex_2/Vehicles_complex_2_sketchbloom.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Vehicles_complex_2/Vehicles_complex_2_CLIPascene.png"
+      }
+    ]
+  },
+  {
+    "setId": "Normal_object_complex_3",
+    "original": "/merged_dataset/Normal_object_complex_3/Normal_object_complex_3.png",
+    "results": [
+      {
+        "pipelineId": "sketchbloom",
+        "url": "/merged_dataset/Normal_object_complex_3/Normal_object_complex_3_sketchbloom.png"
+      },
+      {
+        "pipelineId": "Diffsketcher",
+        "url": "/merged_dataset/Normal_object_complex_3/Normal_object_complex_3_Diffsketcher.png"
+      },
+      {
+        "pipelineId": "CLIPascene",
+        "url": "/merged_dataset/Normal_object_complex_3/Normal_object_complex_3_CLIPascene.png"
+      }
+    ]
+  }
+]

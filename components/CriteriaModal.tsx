@@ -41,18 +41,24 @@ export default function CriteriaModal({ onStart }: CriteriaModalProps) {
   const criteriaList = [
   {
     icon: <Target className="text-indigo-500" size={24} />,
-    title: "Giữ đúng miền sketch / Sketch domain preservation",
-    desc: "Ảnh đầu ra có giống tranh nét / line drawing hơn là ảnh chụp không?\nDoes the output look like a line drawing rather than a photograph?",
+    title: "Chất lượng cảm nhận / Perceptual Quality",
+    desc:
+      "Bản sketch có đẹp, sạch và dễ đọc không?\n" +
+      "How visually appealing, clean, and readable is the generated sketch?",
   },
   {
     icon: <Layers className="text-amber-500" size={24} />,
-    title: "Mạch lạc cấu trúc / Structural coherence",
-    desc: "Vùng được mở rộng có nối tự nhiên với sketch gốc không?\nDoes the extended region connect naturally with the original sketch?",
+    title: "Bảo toàn nội dung / Content Preservation",
+    desc:
+      "Bản sketch có giữ được các object chính và bố cục cảnh từ ảnh nội dung đầu vào không?\n" +
+      "How well does the generated sketch preserve the main objects and scene layout from the input content image?",
   },
   {
     icon: <Sparkles className="text-purple-500" size={24} />,
-    title: "Trung thành phong cách nét vẽ / Style fidelity",
-    desc: "Ảnh đầu ra có phản ánh đúng stroke style của ảnh tham chiếu không?\nDoes the output reflect the stroke style of the reference image?",
+    title: "Mạch lạc cấu trúc / Structural Coherence",
+    desc:
+      "Các đường biên, contour và bố cục không gian trong sketch có rõ ràng và mạch lạc không?\n" +
+      "How coherent and recognizable are the object boundaries, contours, and spatial layout in the generated sketch?",
   },
 ];
 

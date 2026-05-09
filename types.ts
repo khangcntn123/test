@@ -1,12 +1,11 @@
 export interface UserData {
-    firstName: string;
-    lastName: string;
-    gender: string;
-    occupation: string;
-    occupationOther?: string;
-    major: string;
-    majorOther?: string;
-    pareidoliaExperience?: string;
+  ageRange: string;
+  gender: string;
+  occupation: string;
+  occupationOther?: string;
+  major: string;
+  majorOther?: string;
+  visualExperience?: string;
 }
 
 export interface ResultImage {
@@ -49,12 +48,18 @@ export interface ProcessedImageSet {
     rounds: EvaluationRound[];
 }
 
-export type PairwiseChoice = "A" | "B" | "tie";
+export type PairwiseChoice = "A" | "B";
 
 export type PairwiseCriterionKey =
-  | "sketchDomainPreservation"
-  | "structuralCoherence"
-  | "styleFidelity";
+  | "perceptualQuality"
+  | "contentPreservation"
+  | "structuralCoherence";
+
+export interface PairwiseChoices {
+  perceptualQuality: PairwiseChoice;
+  contentPreservation: PairwiseChoice;
+  structuralCoherence: PairwiseChoice;
+}
 
 export interface PairwiseRound {
   imageA: ResultImage;
@@ -67,11 +72,7 @@ export interface PairwiseImageSet {
   rounds: PairwiseRound[];
 }
 
-export interface PairwiseChoices {
-  sketchDomainPreservation: PairwiseChoice;
-  structuralCoherence: PairwiseChoice;
-  styleFidelity: PairwiseChoice;
-}
+
 
 export interface PairwiseFormData {
   imageSetId: string;

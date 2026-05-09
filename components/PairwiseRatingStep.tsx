@@ -21,19 +21,25 @@ interface PairwiseRatingStepProps {
 
 const CRITERIA = [
   {
-    key: "sketchDomainPreservation",
-    title: "Sketch domain preservation",
-    desc: "Does the output look like a line drawing rather than a photograph?",
+    key: "perceptualQuality",
+    title: "Chất lượng cảm nhận / Perceptual Quality",
+    desc:
+      "Bản sketch có đẹp, sạch và dễ đọc không?\n" +
+      "How visually appealing, clean, and readable is the generated sketch?",
+  },
+  {
+    key: "contentPreservation",
+    title: "Bảo toàn nội dung / Content Preservation",
+    desc:
+      "Bản sketch có giữ được các object chính và bố cục cảnh từ ảnh nội dung đầu vào không?\n" +
+      "How well does the generated sketch preserve the main objects and scene layout from the input content image?",
   },
   {
     key: "structuralCoherence",
-    title: "Structural coherence",
-    desc: "Does the extended region connect naturally with the original sketch?",
-  },
-  {
-    key: "styleFidelity",
-    title: "Style fidelity",
-    desc: "Does the output reflect the stroke style of the reference image?",
+    title: "Mạch lạc cấu trúc / Structural Coherence",
+    desc:
+      "Các đường biên, contour và bố cục không gian trong sketch có rõ ràng và mạch lạc không?\n" +
+      "How coherent and recognizable are the object boundaries, contours, and spatial layout in the generated sketch?",
   },
 ] as const;
 
@@ -50,22 +56,22 @@ export default function PairwiseRatingStep({
   formType,
 }: PairwiseRatingStepProps) {
   const [choices, setChoices] = useState<{
-    sketchDomainPreservation: PairwiseChoice | "";
-    structuralCoherence: PairwiseChoice | "";
-    styleFidelity: PairwiseChoice | "";
-  }>({
-    sketchDomainPreservation: "",
-    structuralCoherence: "",
-    styleFidelity: "",
-  });
+  perceptualQuality: PairwiseChoice | "";
+  contentPreservation: PairwiseChoice | "";
+  structuralCoherence: PairwiseChoice | "";
+}>({
+  perceptualQuality: "",
+  contentPreservation: "",
+  structuralCoherence: "",
+});
   const [isSubmitting, setIsSubmitting] = useState(false);
 
   useEffect(() => {
     setChoices({
-      sketchDomainPreservation: "",
-      structuralCoherence: "",
-      styleFidelity: "",
-    });
+  perceptualQuality: "",
+  contentPreservation: "",
+  structuralCoherence: "",
+});
   }, [imageSetId, currentRound]);
 
   const isComplete = Object.values(choices).every(Boolean);
@@ -92,12 +98,12 @@ export default function PairwiseRatingStep({
       imageA: currentRoundData.imageA,
       imageB: currentRoundData.imageB,
       choices: {
-        sketchDomainPreservation:
-          choices.sketchDomainPreservation as PairwiseChoice,
+        perceptualQuality:
+          choices.perceptualQuality as PairwiseChoice,
+        contentPreservation:
+          choices.contentPreservation as PairwiseChoice,
         structuralCoherence:
           choices.structuralCoherence as PairwiseChoice,
-        styleFidelity:
-          choices.styleFidelity as PairwiseChoice,
       },
       formType,
     });
@@ -140,8 +146,6 @@ export default function PairwiseRatingStep({
         setChoice(activeCriterion.key, "A");
       } else if (key === "b") {
         setChoice(activeCriterion.key, "B");
-      } else if (key === "t") {
-        setChoice(activeCriterion.key, "tie");
       }
     };
 
@@ -198,30 +202,23 @@ export default function PairwiseRatingStep({
               {criterion.title}
             </h3>
 
-            <p className="text-sm text-gray-500 mb-3">
+            <p className="text-sm text-gray-500 mb-3 whitespace-pre-line">
               {criterion.desc}
             </p>
 
-            <div className="grid grid-cols-3 gap-3">
+            <div className="grid grid-cols-2 gap-3">
               <ChoiceButton
                 active={choices[criterion.key] === "A"}
                 onClick={() => setChoice(criterion.key, "A")}
               >
-                A better
-              </ChoiceButton>
-
-              <ChoiceButton
-                active={choices[criterion.key] === "tie"}
-                onClick={() => setChoice(criterion.key, "tie")}
-              >
-                Tie
+                A tốt hơn / A better
               </ChoiceButton>
 
               <ChoiceButton
                 active={choices[criterion.key] === "B"}
                 onClick={() => setChoice(criterion.key, "B")}
               >
-                B better
+                B tốt hơn / B better
               </ChoiceButton>
             </div>
           </div>
@@ -230,7 +227,7 @@ export default function PairwiseRatingStep({
 
       <div className="mt-8 flex justify-between items-center">
         <p className="text-sm text-gray-400">
-          Shortcut: A = chọn ảnh A, B = chọn ảnh B, T = Tie, Enter = Submit
+          Phím tắt / Shortcut: A = chọn ảnh A / choose A, B = chọn ảnh B / choose B, Enter = gửi / submit
         </p>
 
         <button
@@ -238,7 +235,7 @@ export default function PairwiseRatingStep({
           disabled={!isComplete || isSubmitting}
           className="bg-green-500 text-white font-bold py-3 px-8 rounded-lg shadow-lg transition-all duration-300 disabled:bg-gray-300 disabled:cursor-not-allowed hover:enabled:bg-green-600 hover:enabled:scale-105"
         >
-          {isSubmitting ? "Submitting..." : "Submit & Next"}
+          {isSubmitting ? "Đang gửi... / Submitting..." : "Gửi & tiếp tục / Submit & Next"}
         </button>
       </div>
     </div>
